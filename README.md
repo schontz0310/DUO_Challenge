@@ -7,31 +7,34 @@
 Edsger W. Dijkstra
  !</blockquote>
 
-<div align="center">
+<p align="center">
+  <div align="center">
+  
+![BADGE_LICENSE] ![BADGE_MOBILE_REACT_NATIVE] ![BADGE_TYPESCRIPT] ![BADGE_OPEN_SOURCE]
 
-![BADGE_LICENSE] ![BADGE_NODE_VERSION] ![BADGE_NPM_VERSION] ![BADGE_WEB_REACT] ![BADGE_MOBILE_REACT_NATIVE] ![BADGE_SERVER_NODEJS] ![BADGE_TYPESCRIPT] ![BADGE_OPEN_SOURCE] ![BADGE_OPEN_ISSUES] ![BADGE_CLOSED_ISSUES] ![BADGE_STARS] ![BADGE_FORKS]
+  </div>
 
-</div>
+</p>
+
+
 
 <p align="center">
   <a href="#clipboard-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
 ## :clipboard: Sobre o desafio
 
-Nesse desafio, você irá desenvolver mais uma aplicação, a GoRestaurant, só que dessa vez a versão mobile para o cliente. Agora você irá praticar o que você aprendeu até agora no React Native junto com TypeScript, para criar um pequeno app para pedidos de comida.
+Desafio proposto para avaliar a capacidade tecnica do desenvolvedor em criar um aplicativo Mobile com React-Native
 
-Essa será uma aplicação que irá se conectar a uma Fake API, e exibir e filtrar os pratos de comida da API e permitir a criação de novos pedidos.
+
+## :calendar: Entrega
+Desafio proposto para avaliar a capacidade tecnica do desenvolvedor em criar um aplicativo Mobile com React-Native
 
 <!-- Badges -->
 
-[BADGE_CLOSED_ISSUES]: https://img.shields.io/github/issues-closed/schontz0310/ecoleta?color=red
-
-[BADGE_OPEN_ISSUES]: https://img.shields.io/github/issues/schontz0310/ecoleta?color=green
-
-[BADGE_LICENSE]: https://img.shields.io/github/license/schontz0310/ecoleta
+[BADGE_LICENSE]: https://img.shields.io/github/license/schontz0310/DUO_chalenge
 
 [BADGE_NODE_VERSION]: https://img.shields.io/badge/node-12.17.0-green
 
@@ -43,9 +46,9 @@ Essa será uma aplicação que irá se conectar a uma Fake API, e exibir e filtr
 
 [BADGE_SERVER_NODEJS]: https://img.shields.io/badge/server-nodejs-important
 
-[BADGE_STARS]: https://img.shields.io/github/stars/schontz0310/ecoleta?style=social
+[BADGE_STARS]: https://img.shields.io/github/stars/schontz0310/chalenge?style=social
 
-[BADGE_FORKS]: https://img.shields.io/github/forks/schontz0310/ecoleta?style=social
+[BADGE_FORKS]: https://img.shields.io/github/forks/schontz0310/DUO_chalenge?style=social
 
 [BADGE_TYPESCRIPT]: https://badges.frapsoft.com/typescript/code/typescript.png?v=101
 
