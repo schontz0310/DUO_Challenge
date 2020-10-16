@@ -25,7 +25,7 @@ Edsger W. Dijkstra
 <p align="center">
   <a href="#clipboard-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
    <a href="#calendar-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#checkered_flag-resultado">Resultado</a>
 </p>
 
 ## :clipboard: Sobre o desafio
