@@ -52,6 +52,20 @@ Desafio proposto para avaliar a capacidade tecnica do desenvolvedor em criar um 
       
 <!--te-->
 
+## :checkered_flag: Resultado
+
+Foram contempladas todas os requisitos do desafio, foi usado componentes funcionais reutilizaveis, assim como Hooks.
+
+Embora tenha tido algumas dificuldades no processo ( até mesmo de entender o que deveria ser feito), esta primeira entrega está satisfatória.
+
+dentro de ```` android\app\build\outputs\apk\release ```` você vai encontrar o arquivo ```.apk```, este arquivo pode ser instalado em dispositivos Android para teste do aplicativo.
+
+
+
+<p align="center">
+<img src="https://github.com/schontz0310/DUO_Challenge/blob/main/extras/demo.gif" width="300" height="580" align="center">
+</p>
+
 <!-- Badges -->
 
 [BADGE_LICENSE]: https://img.shields.io/github/license/schontz0310/DUO_chalenge
