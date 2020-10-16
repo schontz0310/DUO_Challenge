@@ -1,12 +1,13 @@
 import styled from 'styled-components/native';
 import { FlatList } from 'react-native';
 
-interface Product {
+interface Notice {
   id: number;
-  name: string;
+  title: string;
   description: string;
-  price: number;
-  formattedValue: number;
+  owner: string;
+  category: string;
+  views: number;
   thumbnail_url: string;
 }
 
@@ -17,46 +18,47 @@ export const Container = styled.View`
 
 export const Header = styled.View`
   padding: 60px 24px 60px;
-  background: #c72828;
-
+  background: #8900ff;
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  border-bottom-right-radius: 100px;
 `;
 
 export const HeaderTitle = styled.Text`
   color: #fff;
-  font-family: 'Poppins-Regular';
+  font-family: 'Roboto-Medium';
   font-style: normal;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 24px;
   line-height: 24px;
 `;
 
-export const FoodsContainer = styled.View`
+export const NewsContainer = styled.View`
   flex: 1;
-  margin-top: -60px;
+  margin-top: 10px;
 `;
 
-export const FoodList = styled(FlatList as new () => FlatList<Product>)`
+export const NewsList = styled(FlatList as new () => FlatList<Notice>)`
   flex: 1;
   padding: 0 20px;
 
   margin-top: 16px;
 `;
 
-export const Food = styled.TouchableOpacity`
+export const Notice = styled.TouchableOpacity`
   display: flex;
   flex-direction: row;
   align-items: center;
-
-  background: #f0f0f5;
+  background: #00c4cd;
   border-radius: 8px;
 
   margin-bottom: 16px;
 `;
 
-export const FoodImageContainer = styled.View`
-  background: #ffb84d;
+export const NewsImageContainer = styled.View`
+  background: #4f1593;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   padding: 16px;
@@ -64,12 +66,12 @@ export const FoodImageContainer = styled.View`
   height: 100%;
 `;
 
-export const FoodContent = styled.View`
+export const NoticeInfos = styled.View`
   flex: 1;
 
   padding: 16px;
 `;
-export const FoodTitle = styled.Text`
+export const NoticeTitle = styled.Text`
   font-family: 'Poppins-Regular';
   font-style: normal;
   font-weight: 600;
@@ -78,7 +80,7 @@ export const FoodTitle = styled.Text`
 
   color: #3d3d4d;
 `;
-export const FoodDescription = styled.Text`
+export const NoticeDescription = styled.Text`
   font-family: 'Poppins-Regular';
   font-style: normal;
   font-weight: normal;
@@ -90,7 +92,7 @@ export const FoodDescription = styled.Text`
   color: #3d3d4d;
 `;
 
-export const FoodPricing = styled.Text`
+export const NoticePricing = styled.Text`
   font-family: 'Poppins-Regular';
   font-style: normal;
   font-weight: normal;

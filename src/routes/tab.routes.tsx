@@ -2,10 +2,11 @@
 import React from 'react';
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import Icon from 'react-native-vector-icons/Feather';
 
 import Dashboard from '../pages/Dashboard';
-import Favorites from '../pages/Favorites';
-import Orders from '../pages/Orders';
+import Register from '../pages/Register';
+import News from '../pages/News';
 
 const Tab = createBottomTabNavigator();
 
@@ -17,34 +18,38 @@ const TabRoutes: React.FC = () => (
       activeBackgroundColor: '#fff',
       inactiveBackgroundColor: '#8900ff',
       labelStyle: {
-        fontFamily: 'Poppins-Regular',
-        fontSize: 18,
-        fontWeight: '600',
+        fontFamily: 'Roboto-Regular',
+        fontSize: 16,
+        alignSelf: 'center',
       },
+      adaptive: true,
       inactiveTintColor: '#fff',
     }}
   >
     <Tab.Screen
       options={{
-        title: 'Noticias',
+        tabBarIcon: ({ color }) => <Icon size={20} name="home" color={color} />,
+        title: 'Home',
       }}
       name="DashboardStack"
       component={Dashboard}
     />
     <Tab.Screen
-      name="Orders"
+      name="News"
       options={{
-        title: 'Pedidos',
+        tabBarIcon: ({ color }) => <Icon size={20} name="edit" color={color} />,
+        title: 'News',
       }}
-      component={Orders}
+      component={News}
     />
 
     <Tab.Screen
-      name="Favorites"
+      name="Register"
       options={{
-        title: 'Favoritos',
+        tabBarIcon: ({ color }) => <Icon size={20} name="mail" color={color} />,
+        title: 'Register',
       }}
-      component={Favorites}
+      component={Register}
     />
   </Tab.Navigator>
 );

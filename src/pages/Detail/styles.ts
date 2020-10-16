@@ -6,8 +6,8 @@ export const Container = styled.View`
 `;
 
 export const Header = styled.View`
-  padding: 40px 24px 20px;
-  background: #c72828;
+  padding: 10px 10px 40px;
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -22,11 +22,11 @@ export const ScrollContainer = styled.ScrollView.attrs({
   margin-top: -40px;
 `;
 
-export const FoodsContainer = styled.View`
+export const NoticesContainer = styled.View`
   padding: 0 24px;
 `;
 
-export const Food = styled.View`
+export const Notice = styled.View`
   display: flex;
   flex-direction: column;
   background: #f0f0f5;
@@ -34,18 +34,18 @@ export const Food = styled.View`
   margin-bottom: 16px;
 `;
 
-export const FoodImageContainer = styled.View`
+export const NoticeImageContainer = styled.View`
   background: #ffb84d;
   overflow: hidden;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
 `;
 
-export const FoodContent = styled.View`
-  padding: 24px;
+export const NoticeContent = styled.View`
+  padding: 12px;
 `;
 
-export const FoodTitle = styled.Text`
+export const NoticeTitle = styled.Text`
   font-family: 'Poppins-Regular';
   font-weight: 600;
   font-size: 20px;
@@ -53,7 +53,7 @@ export const FoodTitle = styled.Text`
   color: #3d3d4d;
 `;
 
-export const FoodDescription = styled.Text`
+export const NoticeDescription = styled.Text`
   font-family: 'Poppins-Regular';
   font-style: normal;
   font-weight: normal;
@@ -63,7 +63,7 @@ export const FoodDescription = styled.Text`
   color: #3d3d4d;
 `;
 
-export const FoodPricing = styled.Text`
+export const NoticePricing = styled.Text`
   font-family: 'Poppins-Regular';
   font-style: normal;
   font-weight: normal;
@@ -75,12 +75,12 @@ export const FoodPricing = styled.Text`
 `;
 
 export const Title = styled.Text`
-  font-family: Poppins;
+  font-family: 'Robotomedium';
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
-  color: #3d3d4d;
+  color: #000;
 `;
 
 export const AdditionalsContainer = styled.View`
@@ -114,9 +114,12 @@ export const AdittionalQuantity = styled.View`
   width: 105px;
 `;
 
-export const TotalContainer = styled.View`
+export const ExtrasContainer = styled.View`
   padding: 0 24px;
   margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 `;
 
 export const PriceButtonContainer = styled.View`

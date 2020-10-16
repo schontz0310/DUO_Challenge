@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, ScrollView } from 'react-native';
+import { Image } from 'react-native';
 
 import { Brightness, Invert } from 'react-native-color-matrix-image-filters';
 
@@ -11,9 +11,9 @@ import {
   Container,
   Header,
   User,
-  FilterContainer,
   TitleHeader,
-  FoodsContainer,
+  TitleContent,
+  ContentContainer,
 } from './styles';
 
 const Dashboard: React.FC = () => {
@@ -27,7 +27,7 @@ const Dashboard: React.FC = () => {
             name="user"
             size={24}
             color="#fff"
-            onPress={() => navigation.navigate('Favorites')}
+            onPress={() => navigation.navigate('Details')}
           />
           <TitleHeader>Bem vindo Usuario</TitleHeader>
         </User>
@@ -37,17 +37,15 @@ const Dashboard: React.FC = () => {
           </Brightness>
         </Invert>
       </Header>
-      <FilterContainer />
-      <ScrollView>
-        <FoodsContainer>
-          <Image
-            source={{
-              uri: 'https://duo.studio/img/loader.gif',
-            }}
-            style={{ width: 200, height: 200 }}
-          />
-        </FoodsContainer>
-      </ScrollView>
+      <ContentContainer>
+        <TitleContent>We are</TitleContent>
+        <Image
+          source={{
+            uri: 'https://duo.studio/img/loader.gif',
+          }}
+          style={{ width: 200, height: 200 }}
+        />
+      </ContentContainer>
     </Container>
   );
 };
