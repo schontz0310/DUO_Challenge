@@ -1,8 +1,11 @@
 
 <img src="https://duo.studio/uploads/servicos/5/APP.jpg" />
 <h3 align="center">
-  Desafio 11: GoRestaurant Mobile
+  Desafio React Mobile
 </h3>
+<h4 align="center"> 
+	🚧  Em construção...  🚧
+</h4>
 <blockquote align="center">“A arte de programar consiste em organizar e dominar a complexidade.”
 Edsger W. Dijkstra
  !</blockquote>
@@ -18,19 +21,50 @@ Edsger W. Dijkstra
 
 
 
+
 <p align="center">
   <a href="#clipboard-sobre-o-desafio">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#calendar-entrega">Entrega</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#calendar-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
 ## :clipboard: Sobre o desafio
 
 Desafio proposto para avaliar a capacidade tecnica do desenvolvedor em criar um aplicativo Mobile com React-Native
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
+<p> 1 </P>
 
+## :calendar: Requisitos
 
-## :calendar: Entrega
-Desafio proposto para avaliar a capacidade tecnica do desenvolvedor em criar um aplicativo Mobile com React-Native
+   * ### Bootom navigation com 3 paginas
+   
+      * #### Pagina 1
+          * Layout básico com imagem e texto estilizado
+          
+      * #### Pagina 2
+          * Listagem de itens
+          * Navegar para pagina de detalhes ao clicar em um item da Lista
+          * Navegar dentro do mesmo stack, mantendo a posição na bottom navigation
+          
+      * #### Pagina 3
+          * Form básico com 3 campos e um botão "Salvar"
+          * Salvar as informações nos States do React Native
+          * Ao pressionar o botão salvar, utilizar um Alerta para mostrar as mesmas na tela
+      
+<!--te-->
 
 <!-- Badges -->
 
