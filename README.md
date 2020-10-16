@@ -31,21 +31,7 @@ Edsger W. Dijkstra
 ## :clipboard: Sobre o desafio
 
 Desafio proposto para avaliar a capacidade tecnica do desenvolvedor em criar um aplicativo Mobile com React-Native
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
-<p> 1 </P>
+
 
 ## :calendar: Requisitos
 
